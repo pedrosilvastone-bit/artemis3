@@ -1,0 +1,73 @@
+   :root {
+            --verde-artemis: #043407;
+            --dourado-artemis: #DEC25E;
+            --vinho-artemis: #561217;
+            --cinza-artemis: #C7C7C7;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f8f8;
+        }
+        
+        .font-display {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .bg-verde {
+            background-color: var(--verde-artemis);
+        }
+        
+        .bg-dourado {
+            background-color: var(--dourado-artemis);
+        }
+        
+        .bg-vinho {
+            background-color: var(--vinho-artemis);
+        }
+        
+        .text-dourado {
+            color: var(--dourado-artemis);
+        }
+        
+        .text-vinho {
+            color: var(--vinho-artemis);
+        }
+        
+        .border-dourado {
+            border-color: var(--dourado-artemis);
+        }
+        
+        .border-vinho {
+            border-color: var(--vinho-artemis);
+        }
+        
+        .hover-dourado:hover {
+            background-color: var(--dourado-artemis);
+            color: var(--verde-artemis);
+        }
+        
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        
+        .product-card {
+            transition: all 0.3s ease;
+        }
+        
+        .product-card:hover {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .hero-pattern {
+            background: linear-gradient(135deg, rgba(4,52,7,0.9) 0%, rgba(86,18,23,0.8) 100%);
+        }
+
+
+.logo {
+    width: 30px;
+}
